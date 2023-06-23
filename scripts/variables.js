@@ -139,6 +139,7 @@ if (userInput === 'marketing') {
             console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen');
     }
 
+
 } else if (userInput === 'sales') {
     console.log("Sales is een leuke afdeling om te werken." + " " + "Er werken op dit moment" + " " + departments["sales"].numberOfEmployees + " " + "medewerkers.");
 
@@ -181,47 +182,49 @@ if (userInput === 'marketing') {
         default:
             console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen');
     }
-//
-// } else if (userInput === 'customer service') {
-//     console.log("Customer Service is een leuke afdeling om te werken." + " " + "Er werken op dit moment" + " " + departments["customer-service"].numberOfEmployees + " " + "medewerkers.");
-//
-//     const userInputCustomerService = prompt("Je koos Customer Service. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in." + " " +
-//         "0: " + departments["customer-service"].jobs[0].title + " " +
-//         "1: " + departments["customer-service"].jobs[1].title + " " +
-//         "2: " + departments["customer-service"].jobs[2].title + " " +
-//         "3: " + departments["customer-service"].jobs[3].title);
-//     console.log(userInputCustomerService);
-//
-//     switch (userInputCustomerService) {
-//         case '0':
-//             console.log("Je koos" + " "
-//                 + departments["customer-service"].jobs[0].title + " "
-//                 + "Een uitdagende rol!" + " "
-//                 + departments["customer-service"].jobs[0].description);
-//             break;
-//
-//         case '1':
-//             console.log("Je koos" + " "
-//                 + departments["customer-service"].jobs[1].title + " "
-//                 + "Een uitdagende rol!" + " "
-//                 + departments["customer-service"].jobs[1].description)
-//             break;
-//
-//         case '2':
-//             console.log("Je koos" + " "
-//                 + departments["customer-service"].jobs[2].title + " "
-//                 + "Een uitdagende rol!" + " "
-//                 + departments["customer-service"].jobs[2].description)
-//             break;
-//
-//         case '3':
-//             console.log("Je koos" + " "
-//                 + departments["customer-service"].jobs[3].title + " "
-//                 + "Een uitdagende rol!" + " "
-//                 + departments["customer-service"]jobs[3].description)
-//             break;
-//
-//         default:
-//             console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen');
-//     }
+
+
+} else if (userInput === 'customer service') {
+    console.log("Customer Service is een leuke afdeling om te werken." + " " + "Er werken op dit moment" + " " + departments["customer-service"].numberOfEmployees + " " + "medewerkers.");
+
+    const userInputCustomerService = prompt("Je koos Customer Service. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in." + " " +
+        "0: " + departments["customer-service"].jobs[0].title + " " +
+        "1: " + departments["customer-service"].jobs[1].title + " " +
+        "2: " + departments["customer-service"].jobs[2].title + " " +
+        "3: " + departments["customer-service"].jobs[3].title);
+    console.log(userInputCustomerService);
+
+    switch (userInputCustomerService) {
+        case '0':
+            console.log("Je koos" + " "
+                + departments["customer-service"].jobs[0].title + " "
+                + "Een uitdagende rol!" + " "
+                + departments["customer-service"].jobs[0].description);
+            break;
+
+        case '1':
+            console.log("Je koos" + " "
+                + departments["customer-service"].jobs[1].title + " "
+                + "Een uitdagende rol!" + " "
+                + departments["customer-service"].jobs[1].description)
+            break;
+
+        case '2':
+            console.log("Je koos" + " "
+                + departments["customer-service"].jobs[2].title + " "
+                + "Een uitdagende rol!" + " "
+                + departments["customer-service"].jobs[2].description);
+            break;
+
+        case '3':
+            console.log("Je koos" + " "
+                + departments["customer-service"].jobs[3].title + " "
+                + "Een uitdagende rol!" + " "
+                + departments["customer-service"].jobs[3].description);
+
+            break;
+
+        default:
+            console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen');
+    }
 }
