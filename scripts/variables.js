@@ -21,7 +21,7 @@ console.log("Sales is een uitdagende afdeling om te werken als Verkoopmanager. "
 // // Opdracht 2B
 //
 // switch (userInput) {
-//     case 'sales':
+//     case 'marketing':
 //         console.log("Je koos Marketing " + departments.sales.description);
 //         break;
 //
@@ -308,3 +308,37 @@ if (userInput === 'marketing') {
             document.getElementById('error-message').textContent = 'Ongeldige keuze. Probeer het opnieuw door de pagina te verversen';
     }
 }
+
+    ////////////////////////////////correctie//////////////////////////////
+
+//     console.log(departmentChoice + ' is een leuke afdeling om te werken. Er werken op dit moment ' + departments[departmentChoice].numberOfEmployees + ' medewerkers.');
+//
+//     const jobChoice = prompt('Je koos '
+//         + departmentChoice
+//         + '. '
+//         + 'Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in. 0: '
+//         + departments[departmentChoice].jobs[0].title + ', 1: '
+//         + departments[departmentChoice].jobs[1].title + ', 2: '
+//         + departments[departmentChoice].jobs[2].title + ', 3: '
+//         + departments[departmentChoice].jobs[3].title
+//     );
+//
+//     console.log(jobChoice);
+//
+//     switch (jobChoice) {
+//         case '0':
+//             console.log('Je koos ' + departments[departmentChoice].jobs[0].title + '. Een uitdagende rol! ' + departments[departmentChoice].jobs[0].description);
+//             break;
+//         case '1':
+//             console.log('Je koos ' + departments[departmentChoice].jobs[1].title + '. Een uitdagende rol! ' + departments[departmentChoice].jobs[1].description);
+//             break;
+//         case '2':
+//             console.log('Je koos ' + departments[departmentChoice].jobs[2].title + '. Een uitdagende rol! ' + departments[departmentChoice].jobs[2].description);
+//             break;
+//         case '3':
+//             console.log('Je koos ' + departments[departmentChoice].jobs[3].title + '. Een uitdagende rol! ' + departments[departmentChoice].jobs[3].description);
+//             break;
+//         default:
+//             console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.');
+//     }
+// }
